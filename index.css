@@ -104,10 +104,8 @@ body {
 
 @media screen and (max-width: 768px) {
   .navbar {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: baseline;
     padding: 2px;
+    font-size: 14px;
   }
   .section-1 {
     display: flex;
