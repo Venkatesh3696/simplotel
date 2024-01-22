@@ -26,7 +26,10 @@ body {
 .nav-link {
   color: black;
   font-weight: bold;
-  margin: 2px 6px;
+}
+.menu-img {
+  width: 20px;
+  cursor: pointer;
 }
 
 .section-1 {
@@ -49,6 +52,8 @@ body {
   border: none;
   color: #ffffff;
   padding: 10px 30px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 .description-image {
   width: 50%;
@@ -100,6 +105,11 @@ body {
   align-items: flex-start;
   padding: 60px;
   font-size: 30px;
+  cursor: pointer;
+}
+.arrow {
+  width: 30px;
+  aspect-ratio: 1;
 }
 
 @media screen and (max-width: 768px) {
@@ -126,6 +136,10 @@ body {
     width: 100%;
   }
   .section-2-description {
-    font-size: 22px;
+    font-size: 16px;
+  }
+  .arrow {
+    width: 20px;
+    aspect-ratio: 1;
   }
 }
